@@ -17,8 +17,8 @@ u=np.array(d)
 for i in u:
     x1=i[0]
     y1=i[1]
-    x2=x1+sx
-    y2=y1+sy
+    x2=x1*(1+sx)
+    y2=y1*(1+sy)
     n.append([x2,y2])
 print(n)
 z=np.array(n)
